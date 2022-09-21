@@ -1,0 +1,105 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-toggler,
+.navbar-toggler span
+{
+    outline: none;
+    background-color: #13c0eb;
+    box-shadow: none;
+    color: transparent;
+}
+@media (max-width:350px) {
+    .login{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+    .form-login input{
+        max-width: 98%;
+    }
+}
+@media (min-width:351px) {
+    .login{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+     .form-login input{
+        max-width: 98%;
+    }
+}
+
+.navbar{
+color: white;
+position:sticky;
+top:0px;
+
+}
+.navbar li a{
+color: white;
+}
+.navbar li.active,
+.navbar li.active a,
+.navbar-brand{
+color: rgb(19, 192, 235);
+}
+
+/* .navbar li:hover, */
+.navbar li a:hover{
+    color:rgb(22, 185, 197);
+}
+
+/*############## login page ################*/
+
+.form-login {
+border: 1px solid #13c0eb;
+padding: 20px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+/* align-items: flex-start; */
+}
+
+.form-login input{
+    margin-left: 2%;
+}
+
+.form-login input[type="email"]{
+    margin-left: 3%;
+
+}
+.form-login > button[type="submit"]
+{
+color: #eb135b;
+outline: none;
+border: none;
+box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+cursor: pointer;
+background-color: #13c0eb;
+margin-top: 15px;
+}
+.form-login > label{
+    color: #eb135b;
+    margin-bottom: 15px;
+    max-width: fit-content;
+    border-right: none;
+    border-bottom:1px solid #65cae6;
+    margin-left: 8px;
+}
+.form-login > input {
+    right: 15px;
+}
+button > a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.bg-ss{
+    background-color: #eee;
+}
+.bg-ff{
+    background-color: rgb(208, 231, 252);
+}
